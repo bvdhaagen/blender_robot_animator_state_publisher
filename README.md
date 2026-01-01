@@ -1,17 +1,6 @@
 # blender_robot_animation_state_publisher
 A Blender Python script for exporting robot joint angles to CSV/JSON formats, specifically designed for ROS (Robot Operating System) and robot control applications.
 
-📋 Features
-
-    Export joint angles (Euler angles) from Blender armatures
-
-    Support for multiple export formats: JSON, CSV
-
-    Batch export of animation frames (max 100 frames by default)
-
-    Three CSV variants for different use cases
-
-    Automatic directory creation
 
     Compatible with Blender 5.0+
 
@@ -27,7 +16,7 @@ A Blender Python script for exporting robot joint angles to CSV/JSON formats, sp
 
         Open a new text editor
 
-        Paste the script code and save the file
+        Paste the script "" and save the file
 
         Click Run Script
 
@@ -56,3 +45,18 @@ Files created:
     joint_angles_z_only.csv - Only Z-angles (for 2D robot arms)
 
     joint_angles_separated.csv - Separate columns per axis
+
+
+
+   
+    you can also generate animations based on keyframes you can copy from blender and output the CSV in the workspace  (> goliath_amination_gerator.py script) 
+
+    Paste the CSV in the in the workspace (undere how you called the workspace  -- not under "src")
+    
+    publish the jointstates to check if evetything is working as expected before you launch the joint position commander 
+
+    happy movements is a happy robot!!
+
+    
+
+    
