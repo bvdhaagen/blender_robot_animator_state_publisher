@@ -16,7 +16,7 @@ A Blender Python script for exporting robot joint angles to CSV/JSON formats, sp
 
         Open a new text editor
 
-        Paste the script "" and save the file
+        Paste the script "blender_animate.py" and save the file
 
         Click Run Script
 
